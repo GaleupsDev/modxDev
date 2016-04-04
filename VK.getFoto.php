@@ -1,11 +1,11 @@
 <?
-$oid = $modx->getOption('oid',$scriptProperties,'0');//группа или учетка
-$aid = $modx->getOption('aid',$scriptProperties,'0');//Альбом
-$rev = $modx->getOption('rev',$scriptProperties,'1');//1 новые сверху
-$extended = $modx->getOption('extended',$scriptProperties,'0'); //расширенные поля
-$feed_type = $modx->getOption('feed_type',$scriptProperties,'photo');//photo, photo_tag
-$photo_sizes = $modx->getOption('photo_sizes',$scriptProperties,'0');//1 - позволяет получать все размеры фотографий.
-$limit=$modx->getOption('limit',$scriptProperties,'10'); //количество загружаемых фото
+$oid = $modx->getOption('oid',$scriptProperties,'0');                   //группа или учетка
+$aid = $modx->getOption('aid',$scriptProperties,'0');                   //Альбом
+$rev = $modx->getOption('rev',$scriptProperties,'1');                   //1 новые сверху
+$extended = $modx->getOption('extended',$scriptProperties,'0');         //расширенные поля
+$feed_type = $modx->getOption('feed_type',$scriptProperties,'photo');   //photo, photo_tag
+$photo_sizes = $modx->getOption('photo_sizes',$scriptProperties,'0');   //1 - позволяет получать все размеры фотографий.
+$limit=$modx->getOption('limit',$scriptProperties,'10');                //количество загружаемых фото
 $class = $modx->getOption('class',$scriptProperties,'');
 $tpl = $modx->getOption('tpl',$scriptProperties,'@INLINE <li>[[+src_big]]</li>');
 $cacheOptions = array(
