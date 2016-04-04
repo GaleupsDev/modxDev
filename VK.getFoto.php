@@ -1,3 +1,10 @@
+/* 
+/
+/ Статья на Modx.pro
+/ https://modx.pro/solutions/8335-photos-vkontakte-in-modx-revo/
+/
+*/
+
 <?
 $oid = $modx->getOption('oid',$scriptProperties,'0');                   //группа или учетка
 $aid = $modx->getOption('aid',$scriptProperties,'0');                   //Альбом
